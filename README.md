@@ -11,6 +11,16 @@ console.log(printCool("Captain Reynolds"));
 
 > => "Captain Reynolds is cool";
 
+My Solution:
+
+```javascript
+const printCool = (name) => {
+  return(name + " is cool");
+} 
+
+printCool('Jim')
+```
+
 # 2
 
 Write a function `calculateCube` that takes a single number and prints the volume of a cube made from that number.
