@@ -31,7 +31,15 @@ console.log(calculateCube(5));
 
 > => 125
 
+My Solution: 
 
+```javascript
+const calculateCube = (num) => {
+  return Math.pow(num, 3);
+}
+
+calculateCube(2);
+```
 # 3
 
 Write a function `isAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
