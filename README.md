@@ -50,7 +50,28 @@ console.log(isAVowel("a"));
 
 > => true
 
+My Solution: 
+```javascript
+const isAVowel = (str) => {
+  const character = (str.toLowerCase());
+  if (character === "a") {
+    return "true";
+  } else if (character === "e") {
+    return "true";
+  } else if (character === "i") {
+    return "true";
+  } else if (character === "o") {
+    return "true"; 
+  } else if (character === "u") {
+    return "true";
+  } else {
+    return "false";
+  }
+}
 
+console.log(isAVowel("I"));
+console.log(isAVowel("t"));
+```
 # 4
 
 Write a function `getTwoLengths` that accepts two parameters (strings). The function should return an _array_ of numbers where each number is the length of the corresponding string.
