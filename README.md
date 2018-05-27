@@ -82,7 +82,14 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 > => [4, 13]
 
+My Solution:
+```javascript
+const getTwoLengths = (string1, string2) => {
+  return [string1.split("").length, string2.split("").length];
+}
 
+console.log(getTwoLengths("Hank", "Hippopopalous"));
+```
 # 5 
 
 Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should return an array of **numbers** where each number is the length of the corresponding string.
